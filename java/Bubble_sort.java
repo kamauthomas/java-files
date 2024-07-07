@@ -10,11 +10,11 @@ public class Bubble_sort {
                 }
             }
         }
-        return 0;
+        return fruits.length;
     }
 
     public static void main(String[] args) {
-        String[] fruits = {"apple", "mango", "banana", "orange"};
+        String[] fruits = {"kiwi", "avocado", "apple", "mango", "banana", "orange"};
         Bsort(fruits);
         for (int i = 0; i < fruits.length; i++) {
             System.out.println(fruits[i]);
